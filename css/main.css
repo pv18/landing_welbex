@@ -427,7 +427,7 @@ ul {
   font-size: 18px;
   line-height: 22px;
 }
-@media (max-width: 360px) {
+@media (max-width: 550px) {
   .main .presents-title {
     text-align: left;
   }
@@ -521,12 +521,11 @@ ul {
     display: none;
   }
 }
-
-.mobile {
+.main .mobile {
   display: none;
 }
 @media (max-width: 550px) {
-  .mobile {
+  .main .mobile {
     display: inline-block;
     width: 130px;
     font-size: 13px;
